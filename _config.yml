@@ -1,1 +1,5 @@
-
+title: "ashkrypt"
+description: "Security Architecture, Cognitive Mechanics & AI"
+theme: minima
+plugins:
+  - jekyll-feed
