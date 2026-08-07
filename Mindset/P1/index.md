@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "The Inceptional Security Mindset (Part 1)"
 permalink: /Mindset/P1/
 date: 2026-08-07
