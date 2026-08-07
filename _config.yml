@@ -1,5 +1,8 @@
 title: "ashkrypt"
 description: "Security Architecture, Cognitive Mechanics & AI"
 theme: minima
-plugins:
-  - jekyll-feed
+minima:
+  skin: dark
+
+url: "https://ash-kr3ypt.github.io"
+baseurl: "/ashkrypt.github.io"
