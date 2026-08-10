@@ -1,8 +1,24 @@
-title: "ashkrypt"
-description: "Security Architecture, Cognitive Mechanics & AI"
-theme: minima
-minima:
-  skin: dark
+#title: "ashkrypt"
+#description: "Security Architecture, Cognitive Mechanics & AI"
+#theme: minima
+#minima:
+ # skin: dark
 
-url: "https://ash-kr3ypt.github.io"
-baseurl: ""
+#url: "https://ash-kr3ypt.github.io"
+#baseurl: ""
+
+title: AshKrypt
+description: Security, Architecture, Engineering & Mindset
+theme: minima
+
+# Enable SASS processing
+sass:
+  style: compressed
+
+# Navigation
+header_pages:
+  - index.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
