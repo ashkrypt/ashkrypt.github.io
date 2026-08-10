@@ -1,19 +1,11 @@
 ---
-layout: default
-title: "The Inceptional Security Mindset — Part 1"
-date: 2026-08-10
-category: Mindset
-tags: [Security, Architecture, Strategy]
+layout: page
+title: "The Inceptional Security Mindset (Part 1)"
+permalink: /Mindset/P1/
+date: 2026-08-07
+categories: [Mindset]
+tags: [Security, Architecture, Leadership]
 ---
-
-<div class="post-meta-custom">
-  <span>{{ page.date | date: "%b %d, %Y" }}</span> • 
-  {% assign words = content | number_of_words %}
-  <span>{% if words < 360 %}1 min read{% else %}{{ words | divided_by: 180 }} min read{% endif %}</span>
-  {% for tag in page.tags %}
-    <span class="tag-badge">{{ tag }}</span>
-  {% endfor %}
-</div>
 
 Security doesn't necessarily start with a policy document, a shiny dashboard, or a 500-page framework. It starts with a very specific type of mental friction.
 
@@ -132,7 +124,19 @@ If this perspective gave you an "aha!" moment or matched a scenario you lived th
 
 Catch you in the next one!
 
+<div class="author-card">
+  <div class="author-header">
+    <span class="author-name">AshKrypt</span>
+  </div>
+  <p class="author-bio">Senior Security Architect exploring digital resilience, enterprise integration, and systemic software architecture.</p>
+  <div class="author-links">
+    <a href="https://medium.com" target="_blank">Medium</a>
+    <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+  </div>
+</div>
 
+
+<!--
 ![Architecture Diagram](/assets/images/architecture.png)
 *Figure 1: High-level overview of security domain isolation.*
 
